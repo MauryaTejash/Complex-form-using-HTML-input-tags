@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Complex Form</h2>
+    <form>
+        <fieldset>
+            <legend>Personal Information:</legend>
+            <label for="name">Enter Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="tel">Phone:</label>
+            <input type="tel" id="tel" name="tel">
+
+            <label for="Dob">Date of Birth:</label>
+            <input type="date" id="Dob">
+
+            <label for="gen">Gender:</label>
+            <input type="radio" name="gen" id="gen">
+            <label for="gen">Male</label>
+
+            <input type="radio" name="gen" id="gen">
+            <label for="gen">Female</label>
+
+            <label for="count">Country:</label>
+            <br>
+            <select name="Count" id="count">
+                <option value="">Choose By default</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Bharat">Bharat</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Address Street:</legend>
+            <label for="street">Street</label>
+            <input type="text" name="" id="street">
+
+            <label for="city">City</label>
+            <input type="text" name="" id="city">
+
+            <label for="state">state</label>
+            <input type="text" name="" id="state">
+
+            <label for="Zip Code">Zip Code</label>
+            <input type="text" name="" id="Zip Code">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Information:</legend>
+            <label for="text">Comment</label>
+            <textarea name="text" id="text" cols="30" rows="10"></textarea>
+            <label for="agree">I agree for term of services</label>
+            <input type="checkbox" name="check" id="agree">
+        </fieldset>
+        <input type="submit" name="sub" value="Register">
+    </form>
+</body>
+</html>
